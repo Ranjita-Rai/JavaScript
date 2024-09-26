@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            text-align: center;
+            padding: 100px;
+        }
+    </style>
+</head>
+<body>
+    <h2>javascript can change html attribute values</h2>
+   
+    <button onclick="document.getElementById('image').src='pic_bulbon.jpg'">Turn on the light</button>
+
+    <img id="image" src="bulboff.jpg" scr="pic_bulbon" width="100px">
+
+    <button onclick="document.getElementById('image').src='bulboff.jpg'">Turn off the light</button>
+</body>
+</html>
