@@ -1,0 +1,2 @@
+# JavaScript
+Onlyyyy Basiccc
